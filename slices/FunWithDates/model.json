@@ -1,0 +1,33 @@
+{
+  "id": "fun_with_dates",
+  "type": "SharedSlice",
+  "name": "FunWithDates",
+  "description": "FunWithDates",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FunWithDates",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "datePicker": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Date"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

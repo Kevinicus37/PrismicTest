@@ -1,0 +1,28 @@
+{
+  "id": "top_banner",
+  "type": "SharedSlice",
+  "name": "TopBanner",
+  "description": "TopBanner",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TopBanner",
+      "primary": {
+        "background": {
+          "config": {
+            "label": "",
+            "constraint": {
+              "height": 75
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
