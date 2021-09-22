@@ -48,6 +48,7 @@ const QuoteSlice = ({ slice }) => (
       }
       .quote div cite {
         display: flex;
+        color: pink
         line-height: 18px;
       }
       .quote div cite:before {
