@@ -34,6 +34,12 @@
             },
             "top_banner": {
               "type": "SharedSlice"
+            },
+            "fun_with_dates": {
+              "type": "SharedSlice"
+            },
+            "links": {
+              "type": "SharedSlice"
             }
           }
         }

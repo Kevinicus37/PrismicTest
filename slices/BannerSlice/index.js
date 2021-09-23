@@ -66,6 +66,9 @@ const BannerSlice = ({ slice }) => (
         }
       }
     `}</style>
+    {slice.pages.map((page, index) => {
+      return <p key={"page" + index}>{page.uid}</p>
+    })}
   </section>
 )
 

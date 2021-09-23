@@ -1,8 +1,6 @@
 import "../styles/globals.css";
-import NextApp from 'next/app';
+import Prismic from "@prismicio/client";
 import {Client} from "../prismic-configuration";
-import { useGetStaticProps } from "next-slicezone/hooks";
-import { props } from "bluebird";
 
 // export default class MyApp extends NextApp {
 //   static async getInitialProps(appCtx) {
@@ -17,16 +15,17 @@ import { props } from "bluebird";
 // }
 
 export default function App({ Component, pageProps, props }) {
+  //pageProps.slices[0].pages=pageProps.pages;
   return <Component {...pageProps} menu={props.menu} />;
 };
 
-App.getInitialProps = async(context) => {
+App.getInitialProps = async() => {
   const client = Client();
   const menu = (await client.getSingle("menu")) || {};
 
   return { 
     props: {
-      menu: menu
+      menu: menu,
     },
   };
 };

@@ -5,10 +5,10 @@ import { Link } from 'prismic-reactjs'
 const Header = ({ menu = [] }) => (
     <header className="site-header">
       <a href="/" className="logo">
-        {RichText.asText(menu.data.title)}
+        {RichText.asText(menu.data?.title)}
       </a>
       {console.log(menu)}
-      <Links menuLinks={menu.data.menu_links} />
+      <Links menuLinks={menu.data?.menu_links} />
       <style jsx>{`
         .site-header {
           height: 30px;
@@ -21,7 +21,7 @@ const Header = ({ menu = [] }) => (
           font-weight: 700;
         }
         .site-header a:hover {
-          color: #72767B;
+          color: yellow;
         }
         .site-header .logo {
           display: inline-block;
@@ -81,7 +81,7 @@ const Links = ({menuLinks}) => {
             font-weight: 700;
           }
           nav li a:hover {
-            color: #72767B;
+            color: yellow;
           }
           @media (max-width: 767px) {
             nav {

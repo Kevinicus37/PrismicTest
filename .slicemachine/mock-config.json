@@ -22,16 +22,21 @@
       }
     },
     "FullWidthImage": {},
-    "ImageGallery": {},
+    "ImageGallery": {
+      "default-slice": {
+        "items": {}
+      }
+    },
     "FeaturedImage": {},
     "TextSlice": {},
     "Quote": {},
-    "FunWithDates": {
+    "FunWithDates": {},
+    "TopBanner": {},
+    "Links": {
       "default-slice": {
         "primary": {}
       }
-    },
-    "TopBanner": {}
+    }
   },
   "_cts": {
     "page": {},

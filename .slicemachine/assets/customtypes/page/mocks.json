@@ -1,10 +1,10 @@
 {
-  "id": "a7e1171e-e3b4-4c66-8b84-b49269d7a74c",
-  "uid": "dolores-beatae-sint",
+  "id": "46741289-7527-4397-83cd-e2720e9adc82",
+  "uid": "totam-occaecati-saepe",
   "type": "page",
   "data": {
-    "meta_title": "evolve global action-items",
-    "meta_description": "extend seamless e-business",
+    "meta_title": "expedite granular functionalities",
+    "meta_description": "seize B2B action-items",
     "social_cards": [
       {
         "social_card_image": {
@@ -14,10 +14,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
         },
-        "social_card_title": "scale sticky eyeballs",
-        "social_card_description": "transform rich communities"
+        "social_card_title": "engineer dot-com web services",
+        "social_card_description": "architect vertical architectures"
       },
       {
         "social_card_image": {
@@ -27,10 +27,36 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
         },
-        "social_card_title": "monetize next-generation niches",
-        "social_card_description": "synthesize global networks"
+        "social_card_title": "redefine web-enabled experiences",
+        "social_card_description": "monetize scalable markets"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "transition global relationships",
+        "social_card_description": "exploit holistic systems"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "benchmark cross-platform networks",
+        "social_card_description": "architect bleeding-edge channels"
       }
     ]
   }

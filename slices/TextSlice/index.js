@@ -4,7 +4,6 @@ import { RichText } from 'prismic-reactjs';
 const TextSlice = ({ slice }) => (
   <section className={`container ${ slice.variation }`}>
     <RichText render={slice.primary.text} />
-    {console.log("hello")}
     <style jsx>{`
       .default-slice {
         column-count: 1;
