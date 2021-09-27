@@ -7,7 +7,6 @@ const Header = ({ menu = [] }) => (
       <a href="/" className="logo">
         {RichText.asText(menu.data?.title)}
       </a>
-      {console.log(menu)}
       <Links menuLinks={menu.data?.menu_links} />
       <style jsx>{`
         .site-header {

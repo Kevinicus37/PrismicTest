@@ -4,6 +4,7 @@ import { Link } from 'prismic-reactjs'
 
 const BannerSlice = ({ slice }) => (
   <section className="homepage-banner">
+    {console.log(slice)}
     <div className="banner-content container">
       <h2 className="banner-title">{RichText.asText(slice.primary.title)}</h2>
       <div className="banner-description">

@@ -34,6 +34,12 @@
             },
             "text_slice": {
               "type": "SharedSlice"
+            },
+            "dropdown_header": {
+              "type": "SharedSlice"
+            },
+            "dropdown_row": {
+              "type": "SharedSlice"
             }
           }
         }

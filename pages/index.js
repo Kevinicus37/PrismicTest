@@ -1,9 +1,6 @@
 import { Client } from "../prismic-configuration";
 import SliceZone from "next-slicezone";
-import { useGetStaticProps } from "next-slicezone/hooks";
 import Prismic from "@prismicio/client";
-
-
 import resolver from "../sm-resolver.js";
 import Layout from "./../components/Layout";
 
@@ -30,15 +27,19 @@ const Home = (props) => {
 
 export const getStaticProps = async ({params}) => {
     const client = Client();
-    // Query to get all documents of type 'page' from Prismic.
+    // Query to get all documents of type 'page' and 'header-dropdowns' from Prismic.
     var pages = (await client.query(Prismic.Predicates.at('document.type', 'page')) || {});
+    var dropdowns = (await client.query(Prismic.Predicates.at('document.type', 'header-dropdowns')) || {});
 
     // Gets the homepage document from Prismic
     var pageProps = (await client.getByUID("home-page", "homepage")) || {};
     
-    // Find the correct slice and give it the pages property with the pages queried above. 
+    // Find the correct slice and give it the desired properties with the documents queried above. 
     var bannerIndex = pageProps.data.slices.findIndex((slice) => slice.slice_type === "banner_slice");
     if (bannerIndex !== -1) pageProps.data.slices[bannerIndex].pages = pages.results;
+    var dropdownsIndex = pageProps.data.slices.findIndex((slice) => slice.slice_type === "dropdown_row");
+    if (dropdownsIndex !== -1) pageProps.data.slices[dropdownsIndex].dropdowns = dropdowns.results;
+
     return {
         props: pageProps
     }

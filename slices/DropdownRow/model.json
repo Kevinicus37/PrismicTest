@@ -1,0 +1,26 @@
+{
+  "id": "dropdown_row",
+  "type": "SharedSlice",
+  "name": "DropdownRow",
+  "description": "DropdownRow",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "DropdownRow",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

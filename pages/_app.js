@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import Prismic from "@prismicio/client";
 import {Client} from "../prismic-configuration";
 
 // export default class MyApp extends NextApp {
@@ -15,7 +14,6 @@ import {Client} from "../prismic-configuration";
 // }
 
 export default function App({ Component, pageProps, props }) {
-  //pageProps.slices[0].pages=pageProps.pages;
   return <Component {...pageProps} menu={props.menu} />;
 };
 

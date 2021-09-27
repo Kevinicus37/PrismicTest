@@ -38,7 +38,7 @@
             "fun_with_dates": {
               "type": "SharedSlice"
             },
-            "links": {
+            "dropdown_header": {
               "type": "SharedSlice"
             }
           }

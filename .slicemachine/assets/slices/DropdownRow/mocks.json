@@ -2,17 +2,17 @@
   {
     "variation": "default-slice",
     "name": "Default slice",
-    "slice_type": "full_width_image",
+    "slice_type": "dropdown_row",
     "items": [],
     "primary": {
       "image": {
         "dimensions": {
-          "width": 980,
-          "height": 300
+          "width": 900,
+          "height": 500
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=980&h=300&fit=crop"
+        "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
       }
     }
   }

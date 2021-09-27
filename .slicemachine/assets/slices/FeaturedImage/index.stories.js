@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"featured_image","items":[],"primary":{"title":[{"type":"heading2","text":"Target interactive methodologies","spans":[]}],"headline":[{"type":"heading3","text":"Brand viral systems","spans":[]}],"link":{"link_type":"Web","url":"https://slicemachine.dev"},"linkLabel":"enhance distributed functionalities","featuredImage":{"dimensions":{"width":600,"height":600},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=600&h=600&fit=crop"}},"id":"_DefaultSlice"}} />
+export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"featured_image","items":[],"primary":{"title":[{"type":"heading2","text":"Engineer compelling bandwidth","spans":[]}],"headline":[{"type":"heading3","text":"Transition real-time mindshare","spans":[]}],"link":{"link_type":"Web","url":"http://google.com"},"linkLabel":"orchestrate seamless relationships","featuredImage":{"dimensions":{"width":600,"height":600},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=600&h=600&fit=crop"}},"id":"_DefaultSlice"}} />
 _DefaultSlice.storyName = 'Default slice'

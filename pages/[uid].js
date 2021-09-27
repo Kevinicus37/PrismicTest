@@ -1,8 +1,6 @@
 import { Client } from "../prismic-configuration";
 import SliceZone from "next-slicezone";
-import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
-import Prismic from "@prismicio/client";
-
+import { useGetStaticPaths } from "next-slicezone/hooks";
 import resolver from "../sm-resolver.js";
 import Layout from "./../components/Layout";
 
@@ -38,10 +36,10 @@ export const getStaticProps = async ({params}) => {
 export const getStaticPaths = useGetStaticPaths({
   client: Client(),
   type: 'page',
-  formatPath: (prismicDocument) => {
+  formatPath: (document) => {
     return {
       params: {
-        uid: prismicDocument.uid
+        uid: document.uid
       }
     }
   }
